@@ -2,7 +2,12 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  background: #34495e;
+  background: #813405;
+}
+#logo{
+position: absolute;
+top: 2px;
+right: 2px;
 }
 
 #main_nav {
@@ -14,7 +19,7 @@ body {
   height: 100%;
   position: fixed;
   overflow: auto;
-  background-color: #9ea39e;
+  background-color: #f1c9ec;
   border: 1px solid black;
 }
 
@@ -32,11 +37,11 @@ body {
 }
 
 #main_nav li a:hover:not(.active) {
-  background-color: #585858;
+  background-color: #96acb7;
 }
 
 #main_nav li a.active {
-  background-color: #585858;
+  background-color: #96acb7;
 }
 
 .content {
@@ -44,18 +49,18 @@ body {
   width: 78%;
   margin: 5%;
   text-align: center;
-  background: #191919;
+  background: #36558f;
 }
 
 .content h1 {
-  color: #CCCCCC;
+  color: #d92f90;
   text-transform: uppercase;
   font-weight: 500;
   padding: 35px;
 }
 
 .content p {
-  color: #CCCCCC;
+  color: #d92f90;
   padding-left: 35px;
   padding-right: 35px;
   padding-top: 0px;
