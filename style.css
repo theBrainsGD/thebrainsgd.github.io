@@ -4,13 +4,16 @@ body {
   font-family: sans-serif;
   background: #813405;
 }
-#logo{
-position: absolute;
-top: 2px;
-right: 2px;
+
+#logo {
+  position: absolute;
+  width: 56px;
+  height: 40px;
+  top: 2px;
+  right: 2px;
 }
 
-#main_nav {
+nav ul {
   float: left;
   list-style-type: none;
   margin: 0;
@@ -23,11 +26,11 @@ right: 2px;
   border: 1px solid black;
 }
 
-#main_nav li {
+nav li {
   border-bottom: 1px solid black;
 }
 
-#main_nav li a {
+nav li a {
   text-decoration: none;
   text-align: center;
   display: block;
@@ -36,11 +39,11 @@ right: 2px;
   padding-bottom: 8px;
 }
 
-#main_nav li a:hover:not(.active) {
+nav li a:hover:not(.active) {
   background-color: #96acb7;
 }
 
-#main_nav li a.active {
+nav li a.active {
   background-color: #96acb7;
 }
 
